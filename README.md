@@ -135,21 +135,18 @@ El proyecto está compuesto por **dos aplicaciones independientes** con responsa
 ## 📁 Estructura del proyecto
 
 ```
-totp-rfc6238/
-│
-├── admin.py                  # Panel de administración con token maestro
-├── cliente.py                # Terminal de acceso para usuarios finales
-│
-├── cuentas_seguras.json      # Generado automáticamente — configuración TOTP
-├── agendas_usuarios.json     # Generado automáticamente — datos de agenda
-│
-├── admin_master.png          # Generado automáticamente — QR del token maestro
-├── qr_<usuario>.png          # Generado automáticamente — QR por usuario
-│
-├── docs/
-│   └── Proyecto_TOTP_RFC6238.pdf   # Memoria académica completa del proyecto
-│
-└── README.md
+
+-proyecto/
+ ├── admin/
+ │   ├── admin.py
+ │   └── data/          ← cuentas_seguras.json y QR 
+ ├── cliente/
+ │   ├── cliente.py
+ │   └── data/          ← agendas_usuarios.json
+ ├── docs/
+ │   ├── tarea_modolo8_M_Ciberseguridad.pdf
+ │   └── rfc6238.pdf          ← Protocolo RFC6238
+-README.md
 ```
 
 <br/>
@@ -166,7 +163,7 @@ totp-rfc6238/
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/totp-rfc6238.git
+git clone https://github.com/ZoneToolsCiber/TOTP-Authentication-System
 cd totp-rfc6238
 ```
 
@@ -225,7 +222,7 @@ python cliente.py
 3. python cliente.py                                               │
    │                                                               │
    ├── Introduce identificador de usuario                          │
-   ├── Introduce código TOTP actual (de Google Auth) ─ ─ ─ ─ ─ ─ ─┘
+   ├── Introduce código TOTP actual (ej. Google Auth) ─ ─ ─ ─ ─ ─ ─┘
    └── Acceso concedido → Agenda personal disponible
 ```
 
@@ -344,7 +341,7 @@ Si estás empezando en ciberseguridad y quieres entender más sobre este tema, e
 
 ## 📄 Documentación completa
 
-La memoria académica completa del proyecto está disponible en [`docs/Proyecto_TOTP_RFC6238.pdf`](docs/Proyecto_TOTP_RFC6238.pdf), e incluye fundamentos teóricos del RFC 6238, análisis detallado del código, guía de uso paso a paso y análisis académico de seguridad.
+La memoria académica completa del proyecto está disponible en [`docs/tarea_modolo8_M_Ciberseguridad.pdf`](docs/tarea_modolo8_M_Ciberseguridad.pdf), e incluye fundamentos teóricos del RFC 6238, análisis detallado del código, guía de uso paso a paso y análisis académico de seguridad.
 
 <br/>
 
