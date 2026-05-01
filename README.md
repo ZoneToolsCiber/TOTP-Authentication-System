@@ -163,8 +163,8 @@ El proyecto está compuesto por **dos aplicaciones independientes** con responsa
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/ZoneToolsCiber/TOTP-Authentication-System
-cd totp-rfc6238
+git clone https://github.com/ZoneToolsCiber/TOTP-Authentication-System.git
+cd TOTP-Authentication-System
 ```
 
 ### 2. Crear entorno virtual (recomendado)
@@ -341,7 +341,7 @@ Si estás empezando en ciberseguridad y quieres entender más sobre este tema, e
 
 ## 📄 Documentación completa
 
-La memoria académica completa del proyecto está disponible en [`docs/tarea_modolo8_M_Ciberseguridad.pdf`](docs/tarea_modolo8_M_Ciberseguridad.pdf), e incluye fundamentos teóricos del RFC 6238, análisis detallado del código, guía de uso paso a paso y análisis académico de seguridad.
+La memoria académica completa del proyecto está disponible en [`proyecto/docs/tarea_modolo8_M_Ciberseguridad.pdf`](docs/tarea_modolo8_M_Ciberseguridad.pdf), e incluye fundamentos teóricos del RFC 6238, análisis detallado del código, guía de uso paso a paso y análisis académico de seguridad.
 
 <br/>
 
