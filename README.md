@@ -341,7 +341,7 @@ Si estás empezando en ciberseguridad y quieres entender más sobre este tema, e
 
 ## 📄 Documentación completa
 
-La memoria académica completa del proyecto está disponible en [`proyecto/docs/tarea_modolo8_M_Ciberseguridad.pdf`](docs/tarea_modolo8_M_Ciberseguridad.pdf), e incluye fundamentos teóricos del RFC 6238, análisis detallado del código, guía de uso paso a paso y análisis académico de seguridad.
+La memoria académica completa del proyecto está disponible en [`proyecto/docs/tarea_modulo8_M_Ciberseguridad.pdf`](proyecto/docs/tarea_modulo8_M_Ciberseguridad.pdf), e incluye fundamentos teóricos del RFC 6238, análisis detallado del código, guía de uso paso a paso y análisis académico de seguridad.
 
 <br/>
 
